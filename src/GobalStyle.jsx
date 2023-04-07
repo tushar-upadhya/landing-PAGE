@@ -104,6 +104,4 @@ li{
     text-transform: uppercase;
     font-size: 1.8rem;
     cursor: pointer;
-    }
-    
-    `;
+    }`;

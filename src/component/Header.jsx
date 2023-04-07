@@ -26,8 +26,8 @@ const MainHeader = styled.header`
     align-items: center;
 
     .logo {
-        height: auto;
-        max-width: 30%;
+        height: 50px;
+        width: 50px;
     }
 `;
 
