@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo from "../images/logo.jpg";
 import Nav from "./Nav";
 import styled from "styled-components";
 
@@ -26,8 +26,8 @@ const MainHeader = styled.header`
     align-items: center;
 
     .logo {
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
     }
 `;
 

@@ -36,6 +36,12 @@ const Service = () => {
     );
 };
 
-const Wrapper = styled.section``;
+const Wrapper = styled.section`
+    @media (max-width: ${({ theme }) => theme.media.tab}) {
+        .grid-three-column {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+`;
 
 export default Service;
