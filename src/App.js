@@ -7,6 +7,7 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Error from "./component/Error";
+import ScrollBtn from "./component/ScrollBtn";
 
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GobalStyle";
@@ -35,15 +36,24 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
+
             <BrowserRouter>
                 <Header />
+
                 <Routes>
                     <Route path="/" element={<Home />} />
+
                     <Route path="/about" element={<About />} />
+
                     <Route path="/service" element={<Service />} />
+
                     <Route path="/contact" element={<Contact />} />
+
                     <Route path="*" element={<Error />} />
                 </Routes>
+
+                <ScrollBtn />
+
                 <Footer />
             </BrowserRouter>
         </ThemeProvider>

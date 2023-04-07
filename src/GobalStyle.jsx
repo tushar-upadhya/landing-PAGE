@@ -14,9 +14,13 @@ html{
     overflow-x:hidden;
 }
 
+::-webkit-scrollbar{
+    width:0rem;
+}
+
 
 h1{
-    front-size:6rem;
+    font-size:6rem;
     font-weight:900;
     color:${({ theme }) => theme.colors.heading};
 }
@@ -24,7 +28,7 @@ h1{
 h2{
     color:${({ theme }) => theme.colors.heading};
     font-size:4.4rem;
-    font-wight:300;
+    font-weight:300;
     white-space:normal;
     text-align:center;
 

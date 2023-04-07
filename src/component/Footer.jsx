@@ -62,7 +62,7 @@ const Footer = () => {
 
                             <div>
                                 <a
-                                    href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                                    href="https://github.com/tushar-upadhya/landing-PAGE"
                                     target="_blank"
                                 >
                                     <FaGithub className="icons" />
